@@ -13,9 +13,10 @@ body{
     box-shadow: 0px 3px 6px #00000029;
     opacity: 1;
     display: flex;
+    justify-content: space-between;
 }
 
-.header-box > img{
+.logo{
     margin-left: 138px;
     margin-top: 19px;
     width: 115px; 
@@ -25,7 +26,7 @@ body{
     background-color: blueviolet;
 }
 #menu{
-    margin-left: 127px;
+    margin-right: 100px;
     margin-top: 40px;
     display: inline-block;
     padding: 0px 19px;
@@ -61,13 +62,17 @@ body{
 
 
 .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container >div{
     margin-top: 40px;
-    margin-left: 10%;
     width: 1013px;
     height: 736px;
     opacity: 1;
 }
-
 .heading{
     width: 123px;
     height: 30px;

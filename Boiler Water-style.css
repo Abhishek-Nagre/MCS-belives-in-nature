@@ -14,6 +14,7 @@ body{
     box-shadow: 0px 3px 6px #00000029;
     opacity: 1;
     display: flex;
+    justify-content: space-between;
 }
 
 .header-box > img{
@@ -26,7 +27,7 @@ body{
     background-color: blueviolet;
 }
 #menu{
-    margin-left: 127px;
+    margin-right: 100px;
     margin-top: 40px;
     display: inline-block;
     padding: 0px 19px;
@@ -66,6 +67,8 @@ body{
 
 .wrapper{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -74,8 +77,8 @@ body{
 
 
 .sidebar{
-    margin-left: 200px;
-    margin-top: 110px;
+    margin-left: -800px;
+    margin-top: 450px;
     list-style: none;
     position: fixed;
 }
@@ -136,7 +139,7 @@ a{
 #Boiler-discription{
     width: 783px;
     height: 222px;
-    margin-left: 480px;
+    margin-left: 280px;
     margin-top: 110px;
 }
 
