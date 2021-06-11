@@ -65,21 +65,24 @@ body{
     }
 
 
-.wrapper{
-    display: flex;
-}
 
-
-
-
-
-
-.sidebar{
-    margin-left: 200px;
-    margin-top: 110px;
-    list-style: none;
-    position: fixed;
-}
+    .wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    
+    
+    
+    
+    .sidebar{
+        margin-left: -800px;
+        margin-top: 450px;
+        list-style: none;
+        position: fixed;
+    }
 .sidebar>h2{
     color: #3F85C0;
     margin-top: 28px;
@@ -137,7 +140,7 @@ a{
 #Packaged-Equipment{
     width: 783px;
     height: 222px;
-    margin-left: 480px;
+    margin-left: 280px;
     margin-top: 110px;
 }
 
